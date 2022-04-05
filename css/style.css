@@ -1,0 +1,93 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+body {
+  text-align: center;
+  background: #008080;
+}
+
+button {
+  color: black;
+}
+
+.unclickable {
+  pointer-events: none;
+}
+
+#status {
+  color: #1b1464;
+  font-size: 1.25rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.game {
+  margin-top: 20px;
+}
+
+.button {
+  font-size: 14px;
+  padding: 40px 40px;
+  border-radius: 10px;
+}
+
+.btn-start {
+  font-size: 14px;
+  padding: 10px 18px;
+  border-radius: 6px;
+}
+.btn-start:hover {
+  background-color: lightgray;
+}
+
+.btn-red {
+  background-color: red;
+  transition: background-color 0.7s;
+}
+.btn-red:hover {
+  background-color: lightsalmon;
+}
+.btn-lightred {
+  background-color: lightsalmon;
+}
+
+.btn-yellow {
+  background-color: gold;
+  transition: background-color 0.7s;
+}
+.btn-lightyellow {
+  background-color: rgb(255, 255, 131);
+}
+.btn-yellow:hover {
+  background-color: rgb(255, 255, 131);
+}
+
+.btn-blue {
+  background-color: blue;
+  transition: background-color 0.7s;
+}
+.btn-lightblue {
+  background-color: lightblue;
+}
+.btn-blue:hover {
+  background-color: lightblue;
+}
+
+.btn-green {
+  background-color: green;
+  transition: background-color 0.5s;
+}
+.btn-lightgreen {
+  background-color: lightgreen;
+}
+.btn-green:hover {
+  background-color: lightgreen;
+}
+
+.p1 {
+  font-size: 18px;
+}
